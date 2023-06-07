@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\MediaLibraryUploaders;
+namespace Backpack\MediaLibraryUploads;
 
 use Backpack\CRUD\app\Library\Uploaders\Support\Interfaces\UploaderInterface;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;

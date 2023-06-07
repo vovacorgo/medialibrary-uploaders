@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\MediaLibraryUploaders;
+namespace Backpack\MediaLibraryUploads;
 
 use Backpack\CRUD\ViewNamespaces;
 
