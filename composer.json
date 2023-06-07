@@ -1,5 +1,5 @@
 {
-    "name": "backpack/media-library-uploads",
+    "name": "vovacorgo/medialibrary-uploaders",
     "description": "Helper functions to save files with spatie media library",
     "license": "MIT",
     "authors": [
