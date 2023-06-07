@@ -1,5 +1,5 @@
 {
-    "name": "backpack/medialibrary-uploaders",
+    "name": "vovacorgo/medialibrary-uploaders",
     "description": "Helper functions to save files with spatie media library",
     "license": "MIT",
     "authors": [
@@ -9,22 +9,27 @@
             "homepage": "https://backpackforlaravel.com"
         }
     ],
-    "homepage": "https://github.com/backpack/medialibrary-uploaders",
+    "homepage": "https://github.com/backpack/media-library-uploads",
     "keywords": [
-        "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "spatie medialibrary uploaders"
+        "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "MediaLibraryUploads"
     ],
     "require": {
-        "illuminate/support": "^10.0",
+      "illuminate/support": "^10.0",
         "backpack/crud": "~5|~6",
         "spatie/laravel-medialibrary": "^10.7"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
-        "orchestra/testbench": "~6"
+        "orchestra/testbench": "~5|~6"
     },
     "autoload": {
         "psr-4": {
-            "Backpack\\MediaLibraryUploaders\\": "src/"
+            "Backpack\\MediaLibraryUploads\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Backpack\\MediaLibraryUploads\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -33,7 +38,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Backpack\\MediaLibraryUploaders\\AddonServiceProvider"
+                "Backpack\\MediaLibraryUploads\\AddonServiceProvider"
             ]
         }
     }

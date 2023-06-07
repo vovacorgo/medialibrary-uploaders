@@ -1,14 +1,14 @@
 <?php
 
-namespace Backpack\MediaLibraryUploaders;
+namespace Backpack\MediaLibraryUploads;
 
 use Backpack\CRUD\app\Library\CrudPanel\CrudColumn;
 use Backpack\CRUD\app\Library\CrudPanel\CrudField;
 use Backpack\CRUD\app\Library\Uploaders\Support\RegisterUploadEvents;
-use Backpack\MediaLibraryUploaders\Uploaders\MediaAjaxUploader;
-use Backpack\MediaLibraryUploaders\Uploaders\MediaMultipleFiles;
-use Backpack\MediaLibraryUploaders\Uploaders\MediaSingleBase64Image;
-use Backpack\MediaLibraryUploaders\Uploaders\MediaSingleFile;
+use Backpack\MediaLibraryUploads\Uploaders\MediaAjaxUploader;
+use Backpack\MediaLibraryUploads\Uploaders\MediaMultipleFiles;
+use Backpack\MediaLibraryUploads\Uploaders\MediaSingleBase64Image;
+use Backpack\MediaLibraryUploads\Uploaders\MediaSingleFile;
 use Illuminate\Support\ServiceProvider;
 
 class AddonServiceProvider extends ServiceProvider

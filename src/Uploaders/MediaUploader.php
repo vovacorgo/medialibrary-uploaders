@@ -1,9 +1,9 @@
 <?php
 
-namespace Backpack\MediaLibraryUploaders\Uploaders;
+namespace Backpack\MediaLibraryUploads\Uploaders;
 
 use Backpack\CRUD\app\Library\Uploaders\Uploader;
-use Backpack\MediaLibraryUploaders\ConstrainedFileAdder;
+use Backpack\MediaLibraryUploads\ConstrainedFileAdder;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\UploadedFile;
